@@ -1,0 +1,62 @@
+*{
+    color: white;
+}
+body{
+    background-color: rgb(33,37,41);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border: 1px solid transparent;
+    color: black;
+    border-radius: 3%;
+    width: 150px;
+    height: 30px;
+}
+select{
+    color: black;
+    height: 35px;
+    width: 150px;
+}
+option{
+    color: black;
+}
+.card{
+    border: 1px solid transparent;
+    border-radius: 5%;
+    background-color: rgb(108,117,125);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+button {
+    border: 1px solid transparent;
+    border-radius: 6%;
+    margin-top: 10px;
+    background-color: rgb(13,202,240);
+    width: 125px;
+    height: 30px;
+}
+.chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grafica{
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
